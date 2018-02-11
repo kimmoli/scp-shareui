@@ -18,7 +18,11 @@ URL:        https://github.com/kimmoli/scp-shareui
 Source0:    %{name}-%{version}.tar.bz2
 
 BuildRequires:  pkgconfig(Qt5Core)
-BuildRequires: pkgconfig(nemotransferengine-qt5)
+BuildRequires:  pkgconfig(Qt5DBus)
+BuildRequires:  pkgconfig(mlite5)
+BuildRequires:  pkgconfig(Qt5Quick)
+BuildRequires:  pkgconfig(Qt5Qml)
+BuildRequires:  pkgconfig(nemotransferengine-qt5)
 
 %description
 shareui plugin to copy files with scp
